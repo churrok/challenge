@@ -36,14 +36,47 @@ public class Modelo {
 		this.operaciones = operaciones;
 	}
 	
-	public Tarjeta getTarjeta(int numero) {
-		Tarjeta ret = null;
-		for (Tarjeta tarjeta : tarjetas) {
-			if(tarjeta.getId() == numero) {
-				ret = tarjeta;
+	public Tarjeta getTarjeta(int numero) throws Exception {
+		
+			Tarjeta ret = null;
+			for (Tarjeta tarjeta : tarjetas) {
+				if(tarjeta.getId() == numero) {
+					ret = tarjeta;
+				}
 			}
+			if(ret == null) {
+				throw(new Exception());
+			}
+			return ret;
+		
+	}
+	public Persona encontrarDuenio(int tarjeta) {
+		for (Tarjeta tarjetaObj : tarjetas) {
+			if(tarjetaObj.getId() == tarjeta)return tarjetaObj.getDuenio();
 		}
-		return ret;
+		return null;
+	}
+	public boolean validarOperacion(int monto, int tarjeta)  throws Exception {
+		int sum = 0;
+		try {
+			
+			for (Tarjeta tarjetaObj: tarjetas) {
+				if(tarjetaObj.getId() == tarjeta) {
+					for (Operacion operacion : operaciones) {
+						if (operacion.getTarjeta().getId() == tarjeta) {
+							sum = sum + operacion.getMonto();
+						}
+					}
+				}
+			}
+		} catch (Exception e) {
+			throw(e);
+		}
+		System.out.println("monto total" + sum);
+		if(sum>=1000) {
+			return false;
+		}
+		return true;
 	}
 
 }

@@ -11,8 +11,8 @@ public class Tarjeta implements Serializable {
 	private int mes;
 	private int anio;
 	private Persona duenio;
-	private String marca;
-	public Tarjeta(int id, int mes, int anio, Persona duenio, String marca) {
+	private Marca marca;
+	public Tarjeta(int id, int mes, int anio, Persona duenio, Marca marca) {
 		super();
 		this.id = id;
 		this.mes = mes;
@@ -44,10 +44,10 @@ public class Tarjeta implements Serializable {
 	public void setDuenio(Persona duenio) {
 		this.duenio = duenio;
 	}
-	public String getMarca() {
+	public Marca getMarca() {
 		return marca;
 	}
-	public void setMarca(String marca) {
+	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}
 	@Override

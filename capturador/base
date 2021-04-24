@@ -1,0 +1,236 @@
+{
+  "personas": [
+    {
+      "nombre": "julian rodriguez",
+      "dni": 38888871
+    },
+    {
+      "nombre": "pablo tamashiro",
+      "dni": 38888871
+    },
+    {
+      "nombre": "ivan pupkin",
+      "dni": 38888871
+    }
+  ],
+  "tarjetas": [
+    {
+      "id": 123456,
+      "mes": 7,
+      "anio": 26,
+      "duenio": {
+        "nombre": "julian rodriguez",
+        "dni": 38888871
+      },
+      "marca": "VISA"
+    },
+    {
+      "id": 123457,
+      "mes": 7,
+      "anio": 23,
+      "duenio": {
+        "nombre": "julian rodriguez",
+        "dni": 38888871
+      },
+      "marca": "AMEX"
+    },
+    {
+      "id": 123458,
+      "mes": 7,
+      "anio": 19,
+      "duenio": {
+        "nombre": "pablo tamashiro",
+        "dni": 38888871
+      },
+      "marca": "VISA"
+    },
+    {
+      "id": 123459,
+      "mes": 7,
+      "anio": 15,
+      "duenio": {
+        "nombre": "pablo tamashiro",
+        "dni": 38888871
+      },
+      "marca": "NARA"
+    },
+    {
+      "id": 123465,
+      "mes": 7,
+      "anio": 20,
+      "duenio": {
+        "nombre": "ivan pupkin",
+        "dni": 38888871
+      },
+      "marca": "NARA"
+    },
+    {
+      "id": 123423,
+      "mes": 7,
+      "anio": 24,
+      "duenio": {
+        "nombre": "ivan pupkin",
+        "dni": 38888871
+      },
+      "marca": "AMEX"
+    }
+  ],
+  "operaciones": [
+    {
+      "tarjeta": {
+        "id": 123456,
+        "mes": 7,
+        "anio": 26,
+        "duenio": {
+          "nombre": "julian rodriguez",
+          "dni": 38888871
+        },
+        "marca": "VISA"
+      },
+      "monto": 240
+    },
+    {
+      "tarjeta": {
+        "id": 123456,
+        "mes": 7,
+        "anio": 26,
+        "duenio": {
+          "nombre": "julian rodriguez",
+          "dni": 38888871
+        },
+        "marca": "VISA"
+      },
+      "monto": 200
+    },
+    {
+      "tarjeta": {
+        "id": 123457,
+        "mes": 7,
+        "anio": 23,
+        "duenio": {
+          "nombre": "julian rodriguez",
+          "dni": 38888871
+        },
+        "marca": "AMEX"
+      },
+      "monto": 20
+    },
+    {
+      "tarjeta": {
+        "id": 123457,
+        "mes": 7,
+        "anio": 23,
+        "duenio": {
+          "nombre": "julian rodriguez",
+          "dni": 38888871
+        },
+        "marca": "AMEX"
+      },
+      "monto": 50
+    },
+    {
+      "tarjeta": {
+        "id": 123458,
+        "mes": 7,
+        "anio": 19,
+        "duenio": {
+          "nombre": "pablo tamashiro",
+          "dni": 38888871
+        },
+        "marca": "VISA"
+      },
+      "monto": 40
+    },
+    {
+      "tarjeta": {
+        "id": 123458,
+        "mes": 7,
+        "anio": 19,
+        "duenio": {
+          "nombre": "pablo tamashiro",
+          "dni": 38888871
+        },
+        "marca": "VISA"
+      },
+      "monto": 90
+    },
+    {
+      "tarjeta": {
+        "id": 123459,
+        "mes": 7,
+        "anio": 15,
+        "duenio": {
+          "nombre": "pablo tamashiro",
+          "dni": 38888871
+        },
+        "marca": "NARA"
+      },
+      "monto": 40
+    },
+    {
+      "tarjeta": {
+        "id": 123459,
+        "mes": 7,
+        "anio": 15,
+        "duenio": {
+          "nombre": "pablo tamashiro",
+          "dni": 38888871
+        },
+        "marca": "NARA"
+      },
+      "monto": 80
+    },
+    {
+      "tarjeta": {
+        "id": 123465,
+        "mes": 7,
+        "anio": 20,
+        "duenio": {
+          "nombre": "ivan pupkin",
+          "dni": 38888871
+        },
+        "marca": "NARA"
+      },
+      "monto": 240
+    },
+    {
+      "tarjeta": {
+        "id": 123465,
+        "mes": 7,
+        "anio": 20,
+        "duenio": {
+          "nombre": "ivan pupkin",
+          "dni": 38888871
+        },
+        "marca": "NARA"
+      },
+      "monto": 200
+    },
+    {
+      "tarjeta": {
+        "id": 123423,
+        "mes": 7,
+        "anio": 24,
+        "duenio": {
+          "nombre": "ivan pupkin",
+          "dni": 38888871
+        },
+        "marca": "AMEX"
+      },
+      "monto": 200
+    },
+    {
+      "tarjeta": {
+        "id": 123423,
+        "mes": 7,
+        "anio": 24,
+        "duenio": {
+          "nombre": "ivan pupkin",
+          "dni": 38888871
+        },
+        "marca": "AMEX"
+      },
+      "monto": 800
+    }
+  ]
+}

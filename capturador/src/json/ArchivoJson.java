@@ -12,7 +12,7 @@ import com.google.gson.GsonBuilder;
 import supermenu.Modelo;
 
 public class ArchivoJson {
-	public void guardarJSON(Modelo modelo,String archivo) {
+	public void guardarJSON(Modelo modelo,String archivo) throws IOException {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(modelo);
 		
@@ -21,10 +21,10 @@ public class ArchivoJson {
 			writer.write(json);
 			writer.close();
 		} catch (IOException e1) {
-			e1.printStackTrace();
+			 throw(e1);
 			}
 		}
-	public Modelo abrirJSON(String archivo){
+	public Modelo abrirJSON(String archivo) throws IOException{
 		Gson gson = new Gson();
 		Modelo ret = null;
 		
@@ -33,7 +33,7 @@ public class ArchivoJson {
 			ret = gson.fromJson(br, Modelo.class);
 			
 		} catch (IOException e1) {
-			e1.printStackTrace();
+			throw(e1);
 		}
 		
 		return ret;

@@ -26,6 +26,10 @@ public class Persona implements Serializable{
 	public void setDni(int dni) {
 		this.dni = dni;
 	}
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", dni=" + dni + "]";
+	}
 	
 	
 
