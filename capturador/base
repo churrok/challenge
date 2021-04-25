@@ -17,7 +17,7 @@
     {
       "id": 123456,
       "mes": 7,
-      "anio": 26,
+      "anio": 2026,
       "duenio": {
         "nombre": "julian rodriguez",
         "dni": 38888871
@@ -27,7 +27,7 @@
     {
       "id": 123457,
       "mes": 7,
-      "anio": 23,
+      "anio": 2023,
       "duenio": {
         "nombre": "julian rodriguez",
         "dni": 38888871
@@ -36,8 +36,8 @@
     },
     {
       "id": 123458,
-      "mes": 7,
-      "anio": 19,
+      "mes": 5,
+      "anio": 2021,
       "duenio": {
         "nombre": "pablo tamashiro",
         "dni": 38888871
@@ -47,7 +47,7 @@
     {
       "id": 123459,
       "mes": 7,
-      "anio": 15,
+      "anio": 2015,
       "duenio": {
         "nombre": "pablo tamashiro",
         "dni": 38888871
@@ -57,7 +57,7 @@
     {
       "id": 123465,
       "mes": 7,
-      "anio": 20,
+      "anio": 2020,
       "duenio": {
         "nombre": "ivan pupkin",
         "dni": 38888871
@@ -67,7 +67,7 @@
     {
       "id": 123423,
       "mes": 7,
-      "anio": 24,
+      "anio": 2024,
       "duenio": {
         "nombre": "ivan pupkin",
         "dni": 38888871
@@ -80,7 +80,7 @@
       "tarjeta": {
         "id": 123456,
         "mes": 7,
-        "anio": 26,
+        "anio": 2026,
         "duenio": {
           "nombre": "julian rodriguez",
           "dni": 38888871
@@ -93,7 +93,7 @@
       "tarjeta": {
         "id": 123456,
         "mes": 7,
-        "anio": 26,
+        "anio": 2026,
         "duenio": {
           "nombre": "julian rodriguez",
           "dni": 38888871
@@ -106,7 +106,7 @@
       "tarjeta": {
         "id": 123457,
         "mes": 7,
-        "anio": 23,
+        "anio": 2023,
         "duenio": {
           "nombre": "julian rodriguez",
           "dni": 38888871
@@ -119,7 +119,7 @@
       "tarjeta": {
         "id": 123457,
         "mes": 7,
-        "anio": 23,
+        "anio": 2023,
         "duenio": {
           "nombre": "julian rodriguez",
           "dni": 38888871
@@ -132,7 +132,7 @@
       "tarjeta": {
         "id": 123458,
         "mes": 7,
-        "anio": 19,
+        "anio": 2019,
         "duenio": {
           "nombre": "pablo tamashiro",
           "dni": 38888871
@@ -145,7 +145,7 @@
       "tarjeta": {
         "id": 123458,
         "mes": 7,
-        "anio": 19,
+        "anio": 2019,
         "duenio": {
           "nombre": "pablo tamashiro",
           "dni": 38888871
@@ -158,7 +158,7 @@
       "tarjeta": {
         "id": 123459,
         "mes": 7,
-        "anio": 15,
+        "anio": 2015,
         "duenio": {
           "nombre": "pablo tamashiro",
           "dni": 38888871
@@ -171,7 +171,7 @@
       "tarjeta": {
         "id": 123459,
         "mes": 7,
-        "anio": 15,
+        "anio": 2015,
         "duenio": {
           "nombre": "pablo tamashiro",
           "dni": 38888871
@@ -184,7 +184,7 @@
       "tarjeta": {
         "id": 123465,
         "mes": 7,
-        "anio": 20,
+        "anio": 2020,
         "duenio": {
           "nombre": "ivan pupkin",
           "dni": 38888871
@@ -197,7 +197,7 @@
       "tarjeta": {
         "id": 123465,
         "mes": 7,
-        "anio": 20,
+        "anio": 2020,
         "duenio": {
           "nombre": "ivan pupkin",
           "dni": 38888871
@@ -210,7 +210,7 @@
       "tarjeta": {
         "id": 123423,
         "mes": 7,
-        "anio": 24,
+        "anio": 2024,
         "duenio": {
           "nombre": "ivan pupkin",
           "dni": 38888871
@@ -223,7 +223,7 @@
       "tarjeta": {
         "id": 123423,
         "mes": 7,
-        "anio": 24,
+        "anio": 2024,
         "duenio": {
           "nombre": "ivan pupkin",
           "dni": 38888871

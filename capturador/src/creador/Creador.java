@@ -1,4 +1,5 @@
 package creador;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,12 +25,12 @@ public class Creador {
 		personas.add(persona2);
 		personas.add(persona3);
 		
-		Tarjeta tarjeta1 = new Tarjeta(123456, 7, 26, persona1, Marca.VISA);
-		Tarjeta tarjeta2 = new Tarjeta(123457, 7, 23, persona1, Marca.AMEX);
-		Tarjeta tarjeta3 = new Tarjeta(123458, 7, 19, persona2, Marca.VISA);
-		Tarjeta tarjeta4 = new Tarjeta(123459, 7, 15, persona2, Marca.NARA);
-		Tarjeta tarjeta5 = new Tarjeta(123465, 7, 20, persona3, Marca.NARA);
-		Tarjeta tarjeta6 = new Tarjeta(123423, 7, 24, persona3, Marca.AMEX);
+		Tarjeta tarjeta1 = new Tarjeta(123456, 7, 2026, persona1, Marca.VISA);
+		Tarjeta tarjeta2 = new Tarjeta(123457, 7, 2023, persona1, Marca.AMEX);
+		Tarjeta tarjeta3 = new Tarjeta(123458, 7, 2019, persona2, Marca.VISA);
+		Tarjeta tarjeta4 = new Tarjeta(123459, 7, 2015, persona2, Marca.NARA);
+		Tarjeta tarjeta5 = new Tarjeta(123465, 7, 2020, persona3, Marca.NARA);
+		Tarjeta tarjeta6 = new Tarjeta(123423, 7, 2024, persona3, Marca.AMEX);
 		
 		tarjetas.add(tarjeta1);
 		tarjetas.add(tarjeta2);
@@ -66,7 +67,12 @@ public class Creador {
 		
 		modelo = new Modelo(personas,tarjetas,operaciones);
 		ArchivoJson archivo = new ArchivoJson();
-		archivo.guardarJSON(modelo, "base");
+		try {
+			archivo.guardarJSON(modelo, "base");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		
 	}
